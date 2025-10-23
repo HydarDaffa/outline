@@ -13,12 +13,12 @@ env:
     value: production
 
 dependencies:
-  - type: MYSQLenv:
+  - type: MYSQL:
   - name: NODE_ENV
     value: production
 
    
-domain: outline-app.deployaja.id
+domain: outline.deployaja.id
 envMap:
   db_host: MYSQL_HOST
   db_name: MYSQL_DATABASE
