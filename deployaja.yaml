@@ -18,6 +18,8 @@ env:
 dependencies:
   - type: mysql
     name: mysql
+    version: "8.0"
+
 
 domain: outline-app.deployaja.id
 
